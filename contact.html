@@ -13,11 +13,41 @@
             <ul>
                 <li><a href=index.html>Blog</a></li>
                 <li><a href=about.html>About</a></li>
+                <li><a href=contact.html>Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    
+    <section method="post" id="contactform">
+        <h2>Wants to contact with me?</h2>
+        <h3>Leave your information below.</h3>
+        <form>
+            <div class="submitted-name">
+                <label for="name">Your Name: </label>
+                <input type="text" name="name" id="sub-name" required>
+            </div>
+            <div class="submitted-email">
+                <label for="email">Your Email: </label>
+                <input type="email" name="email" id="sub-email" required>
+            </div>
+            <div class="submitted-reason">
+                <fieldset>
+                    <legend>Reason for contact</legend>
+                    <label for="reason"><input type="radio" name="options" id="options">Say Hi!</label>
+                    <label for="reason"><input type="radio" name="options" id="options">Looking for a contactor!</label>
+                    <label for="reason"><input type="radio" name="options" id="options">Interesting in an interview!</label>
+                    <label for="reason"><input type="radio" name="options"> id="options"Other...(Leave in the comment below.)</label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="commit">Leave your commits: </label><br>
+                <input type="" name="commit" id="sub-commit">
+            </div>
+            <div>
+                <button>Save & Submit</button>
+            </div>
+        </form>
+    </section>
 
     <footer>
         <p><small>©Copyright 2020 by Yihao He. All rights reversed.</small></p>
