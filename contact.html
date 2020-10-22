@@ -18,19 +18,19 @@
         </nav>
     </header>
 
-    <section method="post" id="contactform">
+    <section id="contactinfo">
         <h2>Wants to contact with me?</h2>
         <h3>Leave your information below.</h3>
         <form>
-            <div class="submitted-name">
-                <label for="name">Your Name: </label>
+            <div class="submitted-info">
+                <label>Your Name: </label>
                 <input type="text" name="name" id="sub-name" required>
             </div>
             <div class="submitted-email">
-                <label for="email">Your Email: </label>
+                <label>Your Email: </label>
                 <input type="email" name="email" id="sub-email" required>
             </div>
-            <div class="submitted-reason">
+            <div id="reason" class="submitted-info">
                 <fieldset>
                     <legend>Reason for contact</legend>
                     <label for="reason"><input type="radio" name="options" id="options">Say Hi!</label>
@@ -41,7 +41,7 @@
             </div>
             <div>
                 <label for="commit">Leave your commits: </label><br>
-                <input type="" name="commit" id="sub-commit">
+                <input type="text" name="commit" class="sub-commit">
             </div>
             <div>
                 <button>Save & Submit</button>
