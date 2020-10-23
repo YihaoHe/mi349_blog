@@ -17,7 +17,19 @@ body {
 }
 
 nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    width: 1920px;
+}
 
+nav ul {
+    display: inline-flexbox;
+    padding-left: 1em;
+}
+
+nav li {
+    line-height: 1.8em;
 }
 
 h1 {
