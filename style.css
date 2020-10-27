@@ -17,19 +17,23 @@ body {
 }
 
 nav {
+    background: skyblue;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     list-style-type: none;
-    width: 1920px;
 }
 
 nav ul {
     display: inline-block;
     padding-left: 1em;
+    display: flex;
 }
 
 nav li {
-    line-height: 1.8em;
+    color: white;
+    line-height: 1em;
+    padding-left: 2px;
+    margin-left: 5em;
 }
 
 h1 {
@@ -45,6 +49,12 @@ h2 {
 
 .top {
     border-bottom: 2px dotted black;
+}
+
+#stick-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 h3 {
