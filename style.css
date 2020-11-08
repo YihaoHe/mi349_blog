@@ -15,13 +15,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-nav {
-    background: skyblue;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    list-style-type: none;
-}
-
 h1 {
     font-size: 3em;
     font-family: fantasy;
@@ -37,9 +30,11 @@ h2 {
     background: paleturquoise;
     color: white;
     padding: 10px;
+
 }
 
 #top {
+    line-height: 0px;
     font-family: fantasy;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
