@@ -3,6 +3,8 @@ html {
 }
 
 header {
+    border-left: 5px solid paleturquoise;
+    border-right: 5px solid paleturquoise;
     background: paleturquoise;
     font-family: fantasy;
     padding: 2%;
@@ -10,10 +12,7 @@ header {
 
 body {
     background: azure;
-    border-left: 5px solid paleturquoise;
-    border-right: 5px solid paleturquoise;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
 }
 
 nav {
@@ -21,18 +20,6 @@ nav {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     list-style-type: none;
-}
-
-nav ul {
-    padding-left: 1em;
-    display: flex;
-}
-
-nav li {
-    color: white;
-    line-height: 1em;
-    padding-left: 2px;
-    margin-left: 5em;
 }
 
 h1 {
@@ -46,17 +33,20 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#top {
+.menu {
     background: paleturquoise;
-    font-family: fantasy;
-    margin: 0%;
-    padding: 0%;
-    border-left: 0px;
-    border-right: 0px;
+    color: white;
+    padding: 10px;
 }
 
-.top {
-    border-bottom: 2px dotted black;
+#top {
+    font-family: fantasy;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .stick-top {
@@ -110,8 +100,15 @@ aside {
 }
 
 #blog {
+    border-left: 5px solid paleturquoise;
+    border-right: 5px solid paleturquoise;
     padding: 20px;
     border-top: 2px solid black;
+}
+
+.blog_pic {
+    width: 1080px;
+    height: 720px;
 }
 
 .post_blog {
@@ -135,7 +132,7 @@ label {
 }
 
 .sub-commit {
-    
     width: 60em;
     height: 20em;
 }
+
