@@ -102,12 +102,16 @@ aside {
 }
 
 .blog_pic {
-    width: 1080px;
-    height: 720px;
+    width: 100%;
+    height: auto;
 }
 
 .post_blog {
     border-bottom: 2px dotted black;
+}
+
+.blog_footer {
+    text-align: right;
 }
 
 #music_table {
@@ -116,6 +120,7 @@ aside {
 
 .signup {
     padding: 20px;
+    text-align: center;
 }
 
 form {
